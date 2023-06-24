@@ -1,8 +1,17 @@
 #include<iostream>
 using namespace std;
+/*
+linear: 
+key==A[i]
+key, প্রত্যেকটি array element সাথে কম্পেয়ার করবে।
+
+binary:
+key==A[mid]
+key, প্রত্যেকবার A[mid] সাথে কম্পেয়ার করবে।
 
 
 
+*/
 int linear_search(int A[],int key,int n)
 {
     for(int i=0; i<n; i++)
