@@ -65,7 +65,7 @@ int main()
 
     // runtime inout
     int D[3][3];
-    for(auto &x:D)
+    for(auto &x:D) // x represents row of 2D array,so use auto reference.
     {
         for(auto &y:x) // not &y:D
         {
